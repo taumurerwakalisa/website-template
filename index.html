@@ -2,15 +2,64 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Website Template</title>
+	<title>Usability Test</title>
 	<link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 <body>
 
-	<h1>Website Template</h1>
-	<p>Fork and use this template repo (a.k.a. "boilerplate") for any web project</p>
-	<img src="assets/img/cat.jpg" alt="">
+	<h1>SUS Score</h1>
 
-	<script src="./assets/js/main.js"></script>
+	<form action="#" id="myForm">
+		<!--q1-->
+		<label for="q1">I think that I would like to use this system frequently.</label>
+		<input type="number" id="q1" min="1" max="5" value="2" required>
+
+		<!--q2-->
+		<label for="q2">I found the system unnecessarily complex.</label>
+		<input type="number" id="q2" min="1" max="5" value="4" required>
+
+		<!--q3-->
+		<label for="q3">I thought the system was easy to use.</label>
+		<input type="number" id="q3" min="1" max="5" value="3" required>
+
+		<!--q4-->
+		<label for="q4">I think that I would need the support of a technical person to be able to use this system.</label>
+		<input type="number" id="q4" min="1" max="5" value="1" required>
+
+		<!--q5-->
+		<label for="q5">I found the various functions in this system were well integrated.</label>
+		<input type="number" id="q5" min="1" max="5" value="3" required>
+
+		<!--q6-->
+		<label for="q6">I thought there was too much inconsistency in this system.</label>
+		<input type="number" id="q6" min="1" max="5" value="5" required>
+
+		<!--q7-->
+		<label for="q7">I would imagine that most people would learn to use this system very quickly.</label>
+		<input type="number" id="q7" min="1" max="5" value="4" required>
+
+		<!--q8-->
+		<label for="q8">I found the system very cumbersome to use.</label>
+		<input type="number" id="q8" min="1" max="5" value="3" required>
+
+		<!--q9-->
+		<label for="q9">I felt very confident using the system</label>
+		<input type="number" id="q9" min="1" max="5" value="2" required>
+
+		<!--q10-->
+		<label for="q9">I needed to learn a lot of things before I could get going with this system.</label>
+		<input type="number" id="q10" min="1" max="5" value="3" required>
+
+		<!--Submit button-->
+		<button type="submit">Submit</button>
+
+		<input type="number" id="answer" >
+		
+	</form>
+
+
+	<script src="./assets/js/main.js">
+		
+	</script>
 </body>
 </html>
